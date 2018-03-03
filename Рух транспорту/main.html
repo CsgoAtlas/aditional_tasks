@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <title>Розклад руху транспорту</title>
+  </head>
+  <body>
+    <button class="btop">Додати файл</button>
+    <button class="import">Імпортувати</button>
+    <button class="delete">Видалити</button>
+    <img src="images/xicon.png" class="xlsx">
+    <div class="progress">
+      <progress max="100" value="0"></progress>
+      <div class="progress-value"></div>
+      <div class="progress-bg"><div class="progress-bar"></div></div>
+    </div>
+    <div id="text">
+      <img id="image" src="images/cross.png" onclick="text.style.display='none'"/>
+    </div>
+    <div class="container">
+      <table class="tab">
+        <tr class="title">
+          <td>1: Санаторій<br>"Україна"-Аврора</td>
+          <td>1А: Вулиця Пацаєва<br>- Санаторій "Україна"</td>
+        </tr>
+        <tr class="info">
+          <td>Напрямок</td>
+          <td>ЧЛФЗ<br>"Аврора"</td>
+          <td>Завод<br>"Хімреактив"</td>
+          <td>ДОК</td>
+          <td>Хлібозавод</td>
+          <td>Вул.<br>Добровольського</td>
+          <td>пл. 700-річчя<br>Черкас</td>
+          <td>Університет</td>
+          <td>DEPO't<br>center</td>
+          <td>вул.<br>Новопречистеньська</td>
+          <td>вул.<br>Кривалівська</td>
+        </tr>
+        <tr class="danger">
+          <td>ЧЛФЗ"Аврора"-<br>сан.Україна</td>
+          <td>10:00</td>
+          <td>10:05</td>
+          <td>10:10</td>
+          <td>10:15</td>
+          <td>10:20</10:20></td>
+          <td>10:25</td>
+          <td>10:30</td>
+          <td>10:35</td>
+          <td>10:40</td>
+          <td>10:45</td>
+        <tr class="warning">
+          <td>сан.Україна-ЧЛФЗ<br>"Аврора"</td>
+          <td>10:00</td>
+          <td>10:05</td>
+          <td>10:10</td>
+          <td>10:15</td>
+          <td>10:20</td>
+          <td>10:25</td>
+          <td>10:30</td>
+          <td>10:35</td>
+          <td>10:40</td>
+          <td>10:45</td>
+        </tr>
+      </table>
+    </div><br />
+  </body>
+</html>
